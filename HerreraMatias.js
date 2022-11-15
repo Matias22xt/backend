@@ -3,7 +3,7 @@ class Usuario {
       this.nombre = nombre;
       this.apellido = apellido;
      this.libros = libros;
-     this.mascotas = mascotas;
+     this.mascotas = mascotas; 
    }
  
     getFullName() {
@@ -32,7 +32,7 @@ class Usuario {
   }
  
   const Matias = new Usuario("Matias", "Herrera",
-    [{nombre: "Blancanieves y los Siete Enanitos", autor: "Jacob Grimm"},
+    [{nombre: "Blancanieves y los siete enanitos", autor: "Jacob Grimm"},
     {nombre: "El Rey León", autor: "Chris Sanders"}
    ], ["Tigre", "León"]);
  
