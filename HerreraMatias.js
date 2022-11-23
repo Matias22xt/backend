@@ -1,4 +1,4 @@
-class Usuario {
+/*class Usuario {
     constructor(nombre, apellido, libros, mascotas){
       this.nombre = nombre;
       this.apellido = apellido;
@@ -43,4 +43,4 @@ class Usuario {
     console.log(Matias.countMascotas());
     console.log(Matias.getMascotas());
     Matias.addBook("Pinocho", "La bella durmiente");
-   console.log(Matias.getBookNames());
+   console.log(Matias.getBookNames());*/
