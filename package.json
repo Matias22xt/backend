@@ -1,16 +1,22 @@
 {
-  "name": "clase6",
+  "name": "backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matias22xt/backend.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matias22xt/backend/issues"
+  },
+  "homepage": "https://github.com/Matias22xt/backend#readme",
   "dependencies": {
     "express": "^4.18.2"
   },
